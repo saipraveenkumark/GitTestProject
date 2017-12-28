@@ -21,7 +21,9 @@ class ViewController: UIViewController {
     }
 
     func testMethod(){
+        print("Start TestMethod")
         
+        print("End TestMethod")
     }
 }
 
