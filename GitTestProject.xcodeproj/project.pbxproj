@@ -13,6 +13,7 @@
 		4A7D0DE31FF4EB4300151441 /* GitTestProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A7D0DE11FF4EB4300151441 /* GitTestProject.xcdatamodeld */; };
 		4A7D0DE51FF4EB4300151441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A7D0DE41FF4EB4300151441 /* Assets.xcassets */; };
 		4A7D0DE81FF4EB4300151441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7D0DE61FF4EB4300151441 /* LaunchScreen.storyboard */; };
+		4ABBF4C51FF4EE3D003DDE5F /* TestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABBF4C41FF4EE3D003DDE5F /* TestingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4A7D0DE41FF4EB4300151441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A7D0DE71FF4EB4300151441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A7D0DE91FF4EB4300151441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABBF4C41FF4EE3D003DDE5F /* TestingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				4A7D0DDA1FF4EB4300151441 /* AppDelegate.swift */,
 				4A7D0DDC1FF4EB4300151441 /* ViewController.swift */,
+				4ABBF4C41FF4EE3D003DDE5F /* TestingViewController.swift */,
 				4A7D0DDE1FF4EB4300151441 /* Main.storyboard */,
 				4A7D0DE41FF4EB4300151441 /* Assets.xcassets */,
 				4A7D0DE61FF4EB4300151441 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 				4A7D0DDD1FF4EB4300151441 /* ViewController.swift in Sources */,
 				4A7D0DE31FF4EB4300151441 /* GitTestProject.xcdatamodeld in Sources */,
 				4A7D0DDB1FF4EB4300151441 /* AppDelegate.swift in Sources */,
+				4ABBF4C51FF4EE3D003DDE5F /* TestingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MR2PX4Y62Y;
 				INFOPLIST_FILE = GitTestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sc.GitTestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MR2PX4Y62Y;
 				INFOPLIST_FILE = GitTestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sc.GitTestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
