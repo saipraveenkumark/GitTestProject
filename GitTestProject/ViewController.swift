@@ -18,7 +18,7 @@ class ViewController: UIViewController {
 
 
     func testMethod() {
-        print("Tested")
+        print("Testing one")
     }
 }
 
