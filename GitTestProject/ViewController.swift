@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
 
     func testMethod(){
-        print("Start TestMethod")
+//        print("Start TestMethod")
         let a: Int = 10
         let b: Int = 10
         print("Sum of \(a) + \(b) = \(a + b)")
